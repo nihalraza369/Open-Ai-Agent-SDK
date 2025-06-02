@@ -70,19 +70,16 @@ Task 1 done
 ✅ Task 2 ran immediately, while Task 1 ran in the background.
 
 🔍 So What's the Difference?
-Feature	Sync (Synchronous)	Asyncio (Asynchronous)
-Execution Style	One by one	Multiple at once (non-blocking)
-Easy to write	Yes	A bit complex (await, async)
-Best for	Simple scripts	Slow I/O (APIs, DB, network)
+Feature	Sync       (Synchronous)	       Asyncio (Asynchronous)
+Execution Style 	One by one      	Multiple at once (non-blocking)
+Easy to write	        Yes       	    A bit complex (await, async)
+Best for	        Simple scripts	       Slow I/O (APIs, DB, network)
 Commonly used in	Old code, small apps	AI agents, web APIs, real-time apps
 
 🔥 Which One is Used More?
 ✅ asyncio is used more when:
-
 You’re calling APIs, AI models, or databases
-
 You need speed and efficiency
-
 You’re building FastAPI apps, agents, or real-time systems
 
 📌 Conclusion:
